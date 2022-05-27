@@ -7,6 +7,7 @@ import { HeroesModule } from './heroes/heroes.modules';
 // import { HeroeComponent } from './heroes/heroe/heroe.component';
 // import { ListadoComponent } from './heroes/listado/listado.component';
 import { ContadorModule } from './contador/contador/contador.modules';
+import { DbzModule } from './dbz/dbz.module';
 
 
 @NgModule({
@@ -18,7 +19,9 @@ import { ContadorModule } from './contador/contador/contador.modules';
   imports: [
     BrowserModule,
     HeroesModule,
-    ContadorModule
+    ContadorModule,
+    DbzModule
+    
    
     
   ],
